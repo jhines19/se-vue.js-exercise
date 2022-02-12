@@ -8,16 +8,22 @@
           <img src="../assets/images/love-park-hero.jpeg">
         </figure>
     </div>
+      <AboutDetails></AboutDetails>
+    <div>
 
+    </div>
 </template>
 
 <script>
   import Header from '@/views/Header.vue'
+  import aboutDetails from '@/components/about-details.vue'
+import AboutDetails from '../components/about-details.vue'
 
   export default {
     name: 'About',
     components: {
-        Header
+        Header,
+        AboutDetails,
     }
   }
 </script>
@@ -36,4 +42,5 @@
   .top-padding {
       padding-top: 20px;
   }
+
 </style>
