@@ -1,44 +1,37 @@
+<!-- this part is done it just needs styling -->
+
 <template>
-  <div class="box">
-        <div class="content">
-          <p>
-            <strong>Address</strong>
-            <br />
-            1501 John F. Kennedy Blvd.
-            Philadelphia, PA 19102
-            <br />
-            <a>Map</a>
-          </p>
-        </div>
-        <div class="content">
-          <p>
-            <strong>Hours</strong>
-            <br />
-            Closed today
-            <br />
-            <a>See all hours</a>
-          </p>
-        </div>
-        <div class="content">
-          <p>
-            <strong>Contact</strong>
-            <br />
-            parksandrecreation@phila.gov
-            (215) 683-3600
-            <br />
-            <a>Social Media Icons</a>
-          </p>
-        </div>
+  <div class="card is-size-8">
+    <header class="card-header">
+      <p class="card-header-title">Component</p>
+    </header>
+    <div class="card image">
+      <figure class="image is-128x128">
+        <img
+          src="https://bulma.io/images/placeholders/1280x960.png"
+          alt="Placeholder image"
+        />
+      </figure>
+      <div class="content content-is-medium">
+        <p>
+          Character count 275 sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in
+        </p>
       </div>
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
-    name: 'events',
-    methods: {},
-    data() {
-      return {}
-    },
-    created() {}
-}
+  name: "topAttractions",
+  methods: {},
+  data() {
+    return {};
+  },
+  created() {},
+};
 </script>

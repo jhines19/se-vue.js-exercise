@@ -1,6 +1,6 @@
 <template>
   <div class="columns is-multiline is-mobile">
-    <div class="column is-one-third">
+    <div class="column is-one-third has-background-light">
         <div class="content">
           <p>
             <strong>Address</strong>
@@ -35,6 +35,11 @@
           </p>
         </div>
     </div>
+  </div>
+  <div class="content is-medium">
+    <p>
+      Character count 275 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+    </p>
   </div>
 </template>
 
